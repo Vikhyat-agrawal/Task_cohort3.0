@@ -194,6 +194,39 @@ body {
   background: var(--accent-hover);
 }
 
+.like-toggle,
+.like-toggle,
+.bid-toggle {
+  position: absolute;
+  left: -9999px;
+}
+
+.like-toggle + .heart-btn {
+  color: var(--heart-color);
+  transition: color 0.18s, transform 0.18s;
+}
+.like-toggle:not(:checked) + .heart-btn:hover {
+  color: #ff6b8a;
+  transform: scale(1.25);
+}
+.like-toggle + .heart-btn svg path { fill: none; stroke: currentColor; }
+.like-toggle:checked + .heart-btn { color: #ff6b8a; transform: scale(1.05); }
+.like-toggle:checked + .heart-btn svg path { fill: #ff6b8a; stroke: #ff6b8a; }
+
+.bid-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+.bid-btn .bid-placed { display: none; }
+.bid-toggle:checked + .bid-btn {
+  background: linear-gradient(135deg, #6a3de8, #9b59e8);
+  border-color: var(--accent);
+  box-shadow: 0 8px 28px rgba(155,89,232,0.35);
+  opacity: 0.85;
+  pointer-events: none;
+  cursor: default;
+}
+.bid-toggle:checked + .bid-btn .bid-text { display: none; }
+.bid-toggle:checked + .bid-btn .bid-placed { display: inline-block; }
+
+
 @media (max-width: 1024px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
   body { padding: 28px 24px 48px; }
