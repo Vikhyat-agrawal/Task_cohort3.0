@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore Art Work – NFT Gallery</title>
+  <meta name="description" content="Explore and bid on exclusive NFT digital artworks. Browse top pieces and place your bid today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="header">
+    <h1>Explore Art Work</h1>
+    <a href="#" class="see-all">See All</a>
+  </div>
+
+  <div class="grid" id="artworkGrid">
+
+    <div class="card" id="card-monocular">
+      <div class="card-img-wrap">
+        <img src="artwork_1.png" alt="Monocular – digital NFT artwork" loading="lazy" />
+      </div>
+      <div class="card-meta">
+        <span class="card-name">Monocular</span>
+        <div class="card-right">
+          <span class="card-views">54.8k</span>
+          <button class="heart-btn" aria-label="Like Monocular">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <button class="bid-btn" id="bid-monocular">Place Bid</button>
+    </div>
+
+    <div class="card" id="card-hornsmask">
+      <div class="card-img-wrap">
+        <img src="artwork_2.png" alt="Horns Mask – digital NFT artwork" loading="lazy" />
+      </div>
+      <div class="card-meta">
+        <span class="card-name">Horns Mask</span>
+        <div class="card-right">
+          <span class="card-views">32.4k</span>
+          <button class="heart-btn" aria-label="Like Horns Mask">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <button class="bid-btn" id="bid-hornsmask">Place Bid</button>
+    </div>
+
+    <div class="card" id="card-lightmoon">
+      <div class="card-img-wrap">
+        <img src="artwork_3.png" alt="Light Moon – digital NFT artwork" loading="lazy" />
+      </div>
+      <div class="card-meta">
+        <span class="card-name">Light Moon</span>
+        <div class="card-right">
+          <span class="card-views">86.6k</span>
+          <button class="heart-btn" aria-label="Like Light Moon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <button class="bid-btn" id="bid-lightmoon">Place Bid</button>
+    </div>
+
+    <div class="card" id="card-skullwire">
+      <div class="card-img-wrap">
+        <img src="artwork_4.png" alt="Skull Wire – digital NFT artwork" loading="lazy" />
+      </div>
+      <div class="card-meta">
+        <span class="card-name">Skull Wire</span>
+        <div class="card-right">
+          <span class="card-views">78.9k</span>
+          <button class="heart-btn" aria-label="Like Skull Wire">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <button class="bid-btn" id="bid-skullwire">Place Bid</button>
+    </div>
+
+    <div class="card highlighted" id="card-spiderman">
+      <div class="card-img-wrap">
+        <img src="artwork_5.png" alt="Spiderman – digital NFT artwork" loading="lazy" />
+      </div>
+      <div class="card-meta">
+        <span class="card-name">Spiderman</span>
+        <div class="card-right">
+          <span class="card-views">24.8k</span>
+          <button class="heart-btn" aria-label="Like Spiderman">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <button class="bid-btn" id="bid-spiderman">Place Bid</button>
+    </div>
+
+    <div class="card" id="card-deadpool">
+      <div class="card-img-wrap">
+        <img src="artwork_6.png" alt="DeadPool – digital NFT artwork" loading="lazy" />
+      </div>
+      <div class="card-meta">
+        <span class="card-name">DeadPool</span>
+        <div class="card-right">
+          <span class="card-views">59.7k</span>
+          <button class="heart-btn" aria-label="Like DeadPool">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <button class="bid-btn" id="bid-deadpool">Place Bid</button>
+    </div>
+
+    <div class="card" id="card-whiteeye">
+      <div class="card-img-wrap">
+        <img src="artwork_7.png" alt="White Eye – digital NFT artwork" loading="lazy" />
+      </div>
+      <div class="card-meta">
+        <span class="card-name">White Eye</span>
+        <div class="card-right">
+          <span class="card-views">45.7k</span>
+          <button class="heart-btn" aria-label="Like White Eye">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <button class="bid-btn" id="bid-whiteeye">Place Bid</button>
+    </div>
+
+    <div class="card" id="card-plasticspinal">
+      <div class="card-img-wrap">
+        <img src="artwork_8.png" alt="Plastic Spinal – digital NFT artwork" loading="lazy" />
+      </div>
+      <div class="card-meta">
+        <span class="card-name">Plastic Spinal</span>
+        <div class="card-right">
+          <span class="card-views">98.6k</span>
+          <button class="heart-btn" aria-label="Like Plastic Spinal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <button class="bid-btn" id="bid-plasticspinal">Place Bid</button>
+    </div>
+
+  </div>
+
+  <script>
+    document.querySelectorAll('.heart-btn').forEach(btn => {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        const liked = this.dataset.liked === 'true';
+        this.dataset.liked = (!liked).toString();
+        this.style.color = liked ? '' : '#ff6b8a';
+        const path = this.querySelector('path');
+        path.setAttribute('fill', liked ? 'none' : '#ff6b8a');
+        path.setAttribute('stroke', liked ? 'currentColor' : '#ff6b8a');
+      });
+    });
+
+    document.querySelectorAll('.bid-btn').forEach(btn => {
+      btn.addEventListener('click', function () {
+        this.textContent = 'Bid Placed ✓';
+        this.style.background = 'linear-gradient(135deg, #6a3de8, #9b59e8)';
+        this.disabled = true;
+        this.style.opacity = '0.85';
+      });
+    });
+  </script>
+
+</body>
+</html>
