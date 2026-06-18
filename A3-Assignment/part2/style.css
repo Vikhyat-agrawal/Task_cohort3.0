@@ -36,8 +36,9 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 32px;
+  position: relative;
 }
 
 .header h1 {
@@ -48,6 +49,8 @@ body {
 }
 
 .see-all {
+  position: absolute;
+  right: 0;
   font-size: 0.92rem;
   font-weight: 500;
   color: var(--text-primary);
